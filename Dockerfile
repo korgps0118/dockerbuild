@@ -1,5 +1,5 @@
 FROM microsoft/windowsservercore
-MAINTAINER JinHwan_Woo
+MAINTAINER JinHwan_Woo(jhwoo@korgps.com)
 LABEL "purpose"="practice"
 RUN powershell Add-WindowsFeature Web-Server,Web-Asp-Net45
 RUN powershell New-Item -Type File -Path C:\inetpub\wwwroot\Default.htm
